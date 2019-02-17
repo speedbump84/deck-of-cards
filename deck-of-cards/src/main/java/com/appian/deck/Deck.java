@@ -55,7 +55,10 @@ public class Deck {
 		return cards.indexOf(new Card(cardValue, cardSuit)) != -1;
 	}
 	
-
+	
+	/**
+	 * Shuffles a card according to the deck's suffling algorithm
+	 */
 	public void shuffle() {
 		shuffleAlgorithm.shuffleCards(cards);
 	}
